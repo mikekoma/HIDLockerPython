@@ -50,14 +50,14 @@ class LoKey:
 					if keybit == 0:
 						self.state = STT_L_KEY_DOWN
 			elif self.state == STT_L_KEY_DOWN:
-				kbd.send(Keycode.GUI ,Keycode.L)
+				kbd.send(Keycode.SHIFT)
 				led.value = False # led on
 				self.state = STT_L_KEY_LO
 			elif self.state == STT_L_KEY_LO:
 				if keybit == 1:
 					self.state = STT_L_KEY_UP
 			elif self.state == STT_L_KEY_UP:
-				kbd.send(Keycode.SHIFT)
+				kbd.send(Keycode.GUI ,Keycode.L)
 				led.value = True # led off
 				self.state = STT_L_KEY_HI
 			else:
