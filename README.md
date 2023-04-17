@@ -15,17 +15,17 @@ Lock your desktop with one switch.
 Seeduino XIAO SAMD21
 [Seeed Studio XIAO SAMD21(Seeeduino XIAO) - Arduino Microcontroller - SAMD21 Cortex M0+ with Free Course - 5V/16MHz](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html)
 
-> ”zü}
->
->  +-------SW--------+
->  |  _____________  |
->  +--D0   USB   5V  |
->     D1        GND--+
->     D2        3V3
->     D3        D10
->     D4         D9
->     D5         D8
->     D6_________D7
+> ”zü}  
+>  
+>  +-------SW--------+  
+>  |  _____________  |  
+>  +--D0   USB   5V  |  
+>     D1        GND--+  
+>     D2        3V3  
+>     D3        D10  
+>     D4         D9  
+>     D5         D8  
+>     D6_________D7  
 
 
 ## Software
